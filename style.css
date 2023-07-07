@@ -1,0 +1,143 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+img {
+  cursor: pointer;
+}
+
+.Main_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.Center_Container {
+  display: flex;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #0f4e58;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.left_Image > img {
+  width: 246px;
+  height: 246px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.394);
+}
+
+.left_Image > img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+.right_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#logo > img {
+  height: 25px;
+  width: 25px;
+  filter: invert(100%);
+}
+
+#title {
+  font-weight: bolder;
+  margin-top: 60px;
+  display: flex;
+  font-size: 1.15rem;
+  margin-right: 8rem;
+}
+
+#Artist {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#Artist > img {
+  filter: invert(100%);
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+}
+
+#Artist > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#tag {
+  opacity: 0.7;
+}
+
+#tag:hover {
+  opacity: 1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#Heart_Logo {
+  margin-top: 1.2rem;
+}
+
+#Heart_Logo > img {
+  height: 20px;
+  width: 20px;
+  filter: invert(100%);
+}
+
+#Heart_Logo > img:hover {
+  filter: invert(50%);
+}
+
+#Controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+#time {
+  font-size: 0.7rem;
+}
+
+#options > img {
+  filter: invert(100%);
+  height: 15px;
+  width: 15px;
+}
+
+#options > img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+#Playbtn > img {
+  filter: invert(100%);
+  height: 35px;
+  width: 35px;
+}
+
+#Playbtn > img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
